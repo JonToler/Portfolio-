@@ -6,7 +6,8 @@
 
 ## Description
 
-_This is a Portfolio for the Jon Toler. I was created using; Atom, HTML,CSS, and Bootstrap_
+_This is a Portfolio for the Jon Toler. I was created using; Atom, HTML,CSS, and Bootstrap.
+Also incorporated are the HTML tags:p, h, ul, ol, li, em, strong, a, img, div,and span._
 
 ## Known Bugs
 

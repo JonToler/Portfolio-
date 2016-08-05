@@ -63,11 +63,12 @@ span.pr{
 }
 .about-col{
   border-radius: 25px 0 0 20px;
-  color:#ffffff ;
+  color:#fff1ff ;
   background: url(https://images.theoutbound.com/adventures/100821/assets/1408569412611?h=420&h=600&w=900)
 }
 
 .projects-col{
+  font-weight: bolder;
   color:#ff88ff;
   border-radius: 5em;
   background: url(http://cdn.inquisitr.com/wp-content/uploads/2016/05/mthood1.jpg)
