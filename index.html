@@ -16,19 +16,59 @@
   </head>
 
   <body>
+    <h1 class="nm">Jonathan Eric Toler</h1>
     <div class="container">
-      <div class="jumbotron">
-          <h1 class="nm">Jonathan Eric Toler</h1>
+      <br>
+      <div id="myCarousel" class="carousel" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-traget="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-traget="#myCarousel" data-slide-to="1"></li>
+          <li data-traget="#myCarousel" data-slide-to="2"></li>
+          <li data-traget="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!--The Warapper for the slides-->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img class="pp" src="img/git.png" alt="Github Icon">
+            </div>
+
+            <div class="item">
+              <img class="pp" src="img/city.jpg" alt="city scape">
+            </div>
+
+            <div class="item">
+              <img class="pp" src="img/falcon.jpg" alt="bird">
+            </div>
+
+            <div class="item">
+              <img class="pp" src="img/12string.jpg" alt="12 string">
+            </div>
+            <div class="item">
+              <img class="pp" src="img/pf.jpg" alt="Jon's Profile Picture">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+
           <h2><em>Epicodus student and aspiring software developer</em></h2>
-          <img class="pp" src="img/pf.jpg" alt="Jon's Profile Picture" />
+
       </div>
     </div>
     <br>
     <div class="container">
       <div class="row">
-        <div class="projects-col col-md-8">
-            <h2 class="pr">Projects</h2>
-            <span><ul><a href="https://github.com/JonToler/First-thing">First-thing</ul></span>
+        <div class="projects-col col-sm-8">
+            <span class="pr">Projects</span>
+            <ul><a href="https://github.com/JonToler/First-thing">First-thing</ul>
             <ul><a href="https://github.com/JonToler/hello-world">hello-world</ul>
             <ul><a href="https://github.com/JonToler/goodbye">goodbye</ul>
             <ul><a href="https://github.com/JonToler/goodbye-world">goodbye-world</ul>
@@ -49,9 +89,12 @@
 
 
       <div class="row">
-        <div class="about-col col-md-4">
+        <div class="about-col col-sm-4">
           <h2 class="am">About Me</h2>
-            <p> I love working creativly with technology</p>
+            <p>When I was small I wanted to be an archaeologist, I loved the idea of travelling the globe and searching hidden caches of treasure.
+              That morbib curiosity, has branched into other passions. I've worn many hats, and I have lived all over the country.</p>
+              <em>I have a special relationship with technology</em>
+              <p>While living in San Franciso</p>
         </div>
       </div>
     </div>

@@ -4,9 +4,12 @@ h1.nm {
   color: green;
 }
 
-.pp {
-  height: 20em;
-  width: 30em;
+
+<!--Carousel-->
+
+img.pp {
+  height: 345em;
+  width: 460em;
   padding: 50px 30px 10px 10px;
 }
 
@@ -29,6 +32,13 @@ h1.nm {
   ;padding-top: 25 px;
 }
 
+<!--esthetics-->
+
+span.pr{
+  font-size: 12em;
+  width: auto;
+
+}
 
 .about-col{
   border-radius: 25px 0 0 20px;
@@ -37,6 +47,7 @@ h1.nm {
 }
 
 .projects-col{
+  color:#ff88ff;
   border-radius: 5em;
   background: url(http://cdn.inquisitr.com/wp-content/uploads/2016/05/mthood1.jpg)
 }
