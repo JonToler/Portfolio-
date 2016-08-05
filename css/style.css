@@ -34,8 +34,13 @@ h1.nm {
 
 .col-md-4{
   border-radius: 25px 0 0 20px;
+  border: 15px;
+  border-color: black;
+  border-width: 25%;
+  background: url(https://images.theoutbound.com/adventures/100821/assets/1408569412611?h=420&h=600&w=900)
 }
 
 .col-md-8{
   border-radius: 5em;
+  background: url(http://cdn.inquisitr.com/wp-content/uploads/2016/05/mthood1.jpg)
 }
