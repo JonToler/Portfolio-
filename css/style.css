@@ -11,13 +11,14 @@ h1.nm {
 }
 
 
-<!-aboutme->
+
 .am {
   height: 200px;
   width: auto;
   padding: 50px 30px 10px 10px;
 }
 
+}
 .row {
   padding: 10px;
 }
@@ -28,19 +29,14 @@ h1.nm {
   ;padding-top: 25 px;
 }
 
-.col-md-4, .col-md-8 {
-  background-color: lightblue;
-}
 
-.col-md-4{
+.about-col{
   border-radius: 25px 0 0 20px;
-  border: 15px;
-  border-color: black;
-  border-width: 25%;
+  color:#ffffff ;
   background: url(https://images.theoutbound.com/adventures/100821/assets/1408569412611?h=420&h=600&w=900)
 }
 
-.col-md-8{
+.projects-col{
   border-radius: 5em;
   background: url(http://cdn.inquisitr.com/wp-content/uploads/2016/05/mthood1.jpg)
 }
