@@ -5,6 +5,14 @@ h1.nm {
 }
 
 .pp {
+  height: 20em;
+  width: 30em;
+  padding: 50px 30px 10px 10px;
+}
+
+
+<!-aboutme->
+.am {
   height: 200px;
   width: auto;
   padding: 50px 30px 10px 10px;
