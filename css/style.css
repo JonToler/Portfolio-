@@ -9,8 +9,21 @@
   Padding-bottm: 50%;
   text-align: center;
   background-color: black;
-  border-radius: 25px;
+  border-radius: 29px;
   border: 2px solid;
+}
+
+.em{
+  font-family: 'Share Tech Mono', ;
+  font-size-adjust: auto;
+  background-color: green;
+  color: #fff91f;
+  border-color: red;
+  border-radius: 29px;
+  padding-left: 25px;
+  border-width: thick;
+  box-shadow: inset 82px 6px 28px 0px rgba(0,0,0,0.35);
+
 }
 
 body{
@@ -19,9 +32,9 @@ body{
 
 <!--Carousel-->
 
-img.pp {
+.pp {
   max-height: 100px;
-  max-width: 100px;
+  max-width:100%;
   border-radius: 5%;
   border: 15px;
 }
