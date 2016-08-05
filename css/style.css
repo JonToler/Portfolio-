@@ -1,19 +1,29 @@
-h1.nm {
+.nm {
   width: 50%;
-  font-size: bold;
+  font-size:45;
   color: green;
+  padding-bottom: 25%;
+  padding-left: 25%;
+  text-align: center;
 }
+
 
 
 <!--Carousel-->
 
 img.pp {
-  height: 345em;
-  width: 460em;
-  padding: 50px 30px 10px 10px;
+  max-height: 100px;
+  max-width: 100px;
+  border-radius: 5%;
+  border: 15px;
 }
 
-
+.div {
+  max-height: 100px;
+  max-width: 100px;
+  border-radius: 5%;
+  border: 15px;
+}
 
 .am {
   height: 200px;
@@ -32,7 +42,7 @@ img.pp {
   ;padding-top: 25 px;
 }
 
-<!--esthetics-->
+<!--columns-->
 
 span.pr{
   font-size: 12em;
